@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ asset('/css/home.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="navbar">
+       <img src="img/logo.png" alt="">
+        <div class="menu">
+            <a href="home.html">Home</a>
+            <a href="premium.html">Profil</a>          
+        </div>
+    </div>
+
+    <div class="navbarbawah">
+        <div class="search-container">
+            <select name="Kota/Daerah">
+                <option value="Kota Depok">Kota Depok</option> 
+                <option value="Kota Jakarta">Kota Jakarta</option>
+                <option value="Kota Bogor">Kota Bogor</option>
+                <option value="Kota Tanggerang">Kota Tanggerang</option>
+            <input type="date" name="tanggal_sewa">
+            <input type="text" placeholder="Cari lapangan...">
+            <button type="submit">Search</button>
+           
+        </div>
+    </div>
+
+    <div class="countainer">
+
+
+
+        <div class="card">
+            <img src="img/ilomata.png" alt="Gambar Card" class="card-image">
+            <div class="card-content">
+                <h3 class="card-title">Gor Ilomata</h3>
+                <h2 class="card-text">Depok</h2>
+                <p class="card-text">Tersedia 2 lapangan</p>
+                <a href="isi.html" class="card-button">Baca Selengkapnya</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/ilomata.png" alt="Gambar Card" class="card-image">
+            <div class="card-content">
+                <h3 class="card-title">Gor Ilomata</h3>
+                <h2 class="card-text">Depok</h2>
+                <p class="card-text">Tersedia 2 lapangan</p>
+                <a href="isi.html" class="card-button">Baca Selengkapnya</a>
+            </div>
+        </div>
+    </div>
+        
+    </body>
+</html>
